@@ -1,0 +1,16 @@
+{
+  "name": "sentimood",
+  "main": "sentimood.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sargeant45/sentimood",
+  "authors": [
+    "sargeant45 <ethanarterberry@gmail.com>"
+  ],
+  "description": "A minimal browser-compatible sentiment analyzer written in CoffeeScript",
+  "keywords": [
+    "sentiment",
+    "analyzer",
+    "afinn"
+  ],
+  "license": "MIT"
+}
