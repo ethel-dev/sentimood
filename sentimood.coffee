@@ -14,7 +14,7 @@ class Sentimood
       hits -= score
       words.push t
     
-    noPunctuation = phrase.replace(/[^a-zA-Z ]+/g, ' ').replace('/ {2,}/', ' ')
+    noPunctuation = phrase.replace(/[^a-zA-Z -]+/g, ' ').replace('/ {2,}/',' ')
     tokens =        noPunctuation.toLowerCase().split " "
     hits =          0
     words =         []
@@ -37,7 +37,7 @@ class Sentimood
       hits += score
       words.push t
     
-    noPunctuation = phrase.replace(/[^a-zA-Z ]+/g, ' ').replace('/ {2,}/', ' ')
+    noPunctuation = phrase.replace(/[^a-zA-Z -]+/g, ' ').replace('/ {2,}/',' ')
     tokens =        noPunctuation.toLowerCase().split " "
     hits =          0
     words =         []
